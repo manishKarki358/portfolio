@@ -39,7 +39,7 @@ body {
   letter-spacing: 5px;
 }/*# sourceMappingURL=style.css.map */
 .name{
-  font-size: 55px;
+  font-size: 65px;
   color:green;
   text-shadow: 2px 2px red;
 }
@@ -51,4 +51,30 @@ body {
   transform: rotate(360deg);
   font-size: 58px;
   color: wheat;
+}
+.landing-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+}
+.logo{
+  margin-top: 120px;
+  margin-left: 250px;
+  transform-style: preserve-3d;
+}
+.logo-container{
+  perspective: 1000px;
+  animation: showcasing 2s ease-in-out  infinite alternate forwards;
+  z-index: 1;
+  margin-left: 400px;
+  margin-bottom: 500px;
+}
+@keyframes showcasing{
+  0%{
+  transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) rotate(0deg);  
+  }
+  100%{
+    transform: rotateY(10deg) rotateX(50deg) rotateZ(20deg) rotate(10deg);;  
+    }
 }

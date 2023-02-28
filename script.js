@@ -33,4 +33,11 @@ nameArray.forEach(element => {
         })
     })
     console.log(gettingName);
+
+     const logo=document.querySelector('.logo-container')
+    logo.addEventListener('mousemove',(e)=>{
+        let xAxis=(window.innerWidth-e.pageX)/10
+        let yAxis=(window.innerHeight-e.pageY)/10
+        logo.style.transform=`rotateY(${xAxis}deg) rotateX(${yAxis}deg)`
+    }) 
  
