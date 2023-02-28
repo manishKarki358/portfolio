@@ -32,6 +32,7 @@ body {
 }
 .starting{
   font-size: 30px;
+  margin-left: 10px;
 }
 .intro h1,.profession {
   color: white;
@@ -42,10 +43,13 @@ body {
   font-size: 65px;
   color:green;
   text-shadow: 2px 2px red;
+  margin-left: 40px;
 }
 .profession{
-  margin-left: 30px;
-  font-size: 30px;
+  margin-left: 100px;
+  font-size: 25px;
+  opacity: 0.9;
+  
 }
 .animating{
   transform: rotate(360deg);
