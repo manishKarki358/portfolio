@@ -34,21 +34,6 @@ nameArray.forEach(element => {
     })
     console.log(gettingName);
 
-     const logo=document.querySelector('.logo')
-    logo.addEventListener('mousemove',(e)=>{
-        const pic=document.querySelector('.logo-container')
-        pic.style.animationPlayState="paused"
-        pic.classList.add('hovered')
-       // pic.style.animationName="jpt"
-       // console.log(pic);
-        //console.log("clicked");
-        let xAxis=(window.innerWidth-e.pageX)/10
-        let yAxis=(window.innerHeight-e.pageY)/10
-        logo.style.transform=`rotateY(${xAxis}deg) rotateX(${yAxis}deg)`
-        window.addEventListener('click',()=>{
-            pic.style.animationPlayState="running"
-        pic.classList.remove('hovered')
-        })
-    }) 
+    
    
  
