@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@700&family=Poppins:wght@300;400;800&display=swap');
 .footer {
   color: blue;
   font-size: 40px;
@@ -14,6 +14,7 @@ span{
   display: inline-block;
 }
 body {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,9 +62,8 @@ body {
   justify-content: space-between;
   align-items: center;
  
-  height: 300px;
-  width: 500;
-  padding: 50px;
+  height: 500px;
+  width: 500px;
 }
 .logo{
   
@@ -77,8 +77,8 @@ body {
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
   animation-fill-mode: forwards;
-margin-left: 450px;
-margin-top: 200px;
+margin-left: 250px;
+
   z-index: 1;
 
 }
@@ -89,4 +89,44 @@ margin-top: 200px;
   100%{
     transform: rotateY(10deg) rotateX(50deg) rotateZ(20deg) rotate(10deg);;  
     }
+}
+
+.project-heading{
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: 6px;
+  font-size: 3rem;
+  color: rgb(241, 205, 138);
+  padding: 20px;
+}
+.project-heading::first-letter{
+  font-size: 3.5rem;
+}
+.projects-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  background-color: rgb(48, 6, 6);
+}
+.projects-section img{
+  width: 50%;
+  height: 50%;
+  transition: transform 0.2s ease-in-out;
+  border-radius: 10px;
+}
+.projects-section img:hover{
+  transform: translateY(-10px) translateX(10px);
+  box-shadow: 4px 4px 20px rgb(65, 58, 45);
+}
+.project-title,.project-title a{
+  font-size: 2.5rem;
+color: cornsilk;
+}
+.project-title a{
+  text-decoration: none;
+  cursor: pointer;
+}
+.project-title a:hover{
+  text-decoration: underline;
 }
