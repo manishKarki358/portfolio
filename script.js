@@ -33,7 +33,7 @@ nameArray.forEach(element => {
         })
     })
     console.log(gettingName);
-
+const M=document.querySelector('.spanning')
+M.classList.add('fa-shake')
     
-   
  

@@ -110,18 +110,27 @@ margin-left: 250px;
   background-color: rgb(48, 6, 6);
 }
 .projects-section img{
-  width: 50%;
-  height: 50%;
-  transition: transform 0.2s ease-in-out;
+  width: 70%;
+  height: 70%;
+  transition: all 0.2s ease-in-out;
   border-radius: 10px;
 }
-.projects-section img:hover{
+.projects-section img:hover {
   transform: translateY(-10px) translateX(10px);
   box-shadow: 4px 4px 20px rgb(65, 58, 45);
+ 
+}
+
+.des{
+  padding: 30px;
+  font-size: 2rem;
+  color: pink;
 }
 .project-title,.project-title a{
   font-size: 2.5rem;
 color: cornsilk;
+font-weight: bolder;
+letter-spacing: 2px;
 }
 .project-title a{
   text-decoration: none;
